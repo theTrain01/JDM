@@ -1,0 +1,40 @@
+.footer_wrap {
+    width: 100vw;
+    min-height: 30vh;
+    background: #151530;
+}
+
+.last_wrapper {
+    padding: 60px 0 0 0;
+}
+
+.last_inner {
+    display: flex;
+    justify-content: space-between;
+
+    .last_items {
+        display: flex;
+    }
+}
+
+.info {
+    margin-right: 200px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    ul {
+        li {
+            font-family: 'Mohave';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 35px;
+            display: flex;
+            align-items: center;
+
+            color: #FFFFFF;
+        }
+    }
+}
