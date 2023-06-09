@@ -4,7 +4,7 @@
 
     background-size: cover;
     background-position: center;
-    background-image: url(../../assets/images/back_main.jpg);
+    background-image: url(../../assets/images/back_main.gif);
     position: relative;
 
     &::before {
@@ -53,8 +53,78 @@
     font-family: 'Mohave';
     font-weight: 700;
 
-    color: #d50c0c;
+    &::after {
+        content: '';
+        display: block;
+    
+        width: 46px;
+        height: 69px;
+    
+        position: absolute;
+        right: 638px;
+        top: 27px;
+
+        background: url(../../assets/images/firstNav.svg);
+    }
+
+    &:nth-child(2) {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+
+            width: 97px;
+            height: 60px;
+
+            position: absolute;
+
+            left: 20px;
+            top: -25px;
+
+            background: url(../../assets/images/pngwing.svg);
+        }
+    }
+
+    &:nth-child(3) {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+
+            width: 56px;
+            height: 60px;
+
+            position: absolute;
+
+            left: 8px;
+            top: -38px;
+
+            background: url(../../assets/images/pngegg.svg);
+        }
+    }
+
+    &:nth-child(4) {
+        position: relative;
+
+        &::after {
+            content: '';
+            display: block;
+
+            width: 56px;
+            height: 60px;
+
+            position: absolute;
+
+            left: -43px;
+            top: -15px;
+
+            background: url(../../assets/images/pngegg2.svg);
+        }
+    }
 }
+
 
 .header_inner {
     display: flex;
@@ -62,3 +132,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
+// .navlink2 {

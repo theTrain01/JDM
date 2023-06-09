@@ -1,30 +1,48 @@
 /** @format */
 import Logo from '../../assets/images/logo.svg'
-import {Link} from 'react-router-dom'
+import classNames from 'classnames';
+
+import { NavLink } from 'react-router-dom'
 
 export const Header = () => {
+
     return (
         <header>
+
+
+            <nav>
+                <ul>
+                    < ></>
+                    <li></li> 
+                    <li></li>
+                </ul>
+            </nav>
+
+
             <div className='header_wrapper'>
                 <div className='header_inner'>
                     <div className='header_item_logo'>
-                        <Link to = '/'>
+                        <NavLink to='/'>
                             <img src={Logo} alt='logo' />
-                        </Link>
+                        </NavLink>
                     </div>
                     <div className='header_item_navigation'>
                         <nav>
-                            <Link to = '/Home' className='nav_link'>
-                                Home
-                            </Link>
+                            <NavLink to='/Home' className='nav_link'>
+                                Homee
+                            </NavLink>
 
-                            <Link to = '/JdmCar' className='nav_link'>
-                                JDM CARS
-                            </Link>
+                            <NavLink to='/JdmCar' className='nav_link'>
+                            JDM CARS
+                            </NavLink>
 
-                            <Link to = '/TechInfo' className='nav_link'>
+                            <NavLink to='/TechInfo' className='nav_link'>
                                 Tech Info
-                            </Link>
+                            </NavLink>
+
+                            <NavLink to='/Store' className='nav_link'>
+                                Home
+                            </NavLink>
                         </nav>
                     </div>
                 </div>

@@ -26,7 +26,7 @@
     background-position: center;
     background-size: cover;
 
-    background-image: url(../../assets/images/back_main.jpg);
+    background-image: url(../../assets/images/back_main.gif);
 }
 
 .block_car {
@@ -53,6 +53,8 @@
 
     img {
         border-radius: 9px;
+        height: 260px;
+        width: 486px;
     }
 
     ul {

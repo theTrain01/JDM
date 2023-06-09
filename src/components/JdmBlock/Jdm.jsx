@@ -1,7 +1,7 @@
 import {Header} from '../Header/Header'
 
 
-import imgSupra from '../../assets/images/supra 1.jpg'
+import imgSupra from '../../assets/images/supra.gif'
 import imgSupra1 from '../../assets/images/supraBack 1.jpg'
 
 import skyImg from '../../assets/images/skyline 1.jpg'
