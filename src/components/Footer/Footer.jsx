@@ -21,7 +21,7 @@ export const Footer = () => {
                             <li>LOH IS: Luxury</li>
                         </ul>
                         </div>
-                        <div className='info'>
+                        <div className='info delete'>
                         <ul>
                             <li>CONTACTS</li>
                             
@@ -30,7 +30,7 @@ export const Footer = () => {
                             <li>LOH IS: Luxury</li>
                         </ul>
                         </div>
-                        <div className='info'>
+                        <div className='info delete'>
                         <ul>
                             <li>SOCIAL MEDIA</li>
                             

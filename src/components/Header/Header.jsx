@@ -1,23 +1,12 @@
 /** @format */
 import Logo from '../../assets/images/logo.svg'
-import classNames from 'classnames';
-
 import { NavLink } from 'react-router-dom'
 
 export const Header = () => {
 
+
     return (
         <header>
-
-
-            <nav>
-                <ul>
-                    < ></>
-                    <li></li> 
-                    <li></li>
-                </ul>
-            </nav>
-
 
             <div className='header_wrapper'>
                 <div className='header_inner'>

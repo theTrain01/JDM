@@ -86,7 +86,7 @@ export const JdmBlock = () => {
 
                 <div className='sky_box'>
                     <div>
-                    <img src={skyImg} alt="Images" />
+                    <img src={skyImg} alt="Images" className='skyBlock' />
                     </div>
                     <div className='inner_sky'>
                         <div>
@@ -97,7 +97,7 @@ export const JdmBlock = () => {
                         </div>
                     </div>
                 </div>
-
+                <div className="container">
                 <div className="block_car">
                         <div className="block_item">
                             <div className='box_image'>
@@ -134,6 +134,7 @@ export const JdmBlock = () => {
                                 Power plants. The heart of the car is the legendary boxer engine with a working volume of 2 liters, demonstrating 280 hp. It is easy to swipe and can withstand even space loads.Technologies. The model was equipped with a sports suspension, disc brakes in a circle and an ABS system.
                                 </p>
                             </div>
+                        </div>
                         </div>
                         </div>
             </section>
